@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1700 height=898></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Elemental Gladiators WEB.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Elemental Gladiators WEB.data.br",
-        frameworkUrl: buildUrl + "/Elemental Gladiators WEB.framework.js.br",
-        codeUrl: buildUrl + "/Elemental Gladiators WEB.wasm.br",
+        dataUrl: buildUrl + "/Elemental Gladiators WEB.data",
+        frameworkUrl: buildUrl + "/Elemental Gladiators WEB.framework.js",
+        codeUrl: buildUrl + "/Elemental Gladiators WEB.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Galaxy Gladiators",
@@ -82,8 +82,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1700px";
+        canvas.style.height = "898px";
       }
       loadingBar.style.display = "block";
 
