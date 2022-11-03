@@ -179,6 +179,8 @@ body{
 }
 
 .theCave figure {
+	width: 560px;
+	height: 240px;
 	margin: 0;
 	overflow: hidden;
 }
