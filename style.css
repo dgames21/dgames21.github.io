@@ -107,9 +107,8 @@ body{
 }
 
 .icon{
-    margin-top: 5.21vw;
-    margin-left: 43.3vw;
-    margin-right: 4.58vw;
+    margin-top: 2vw;
+    margin-left: 47.8vw;
     border-radius: 20%;
 }
 
@@ -139,7 +138,7 @@ body{
 	position: absolute;
 	float: left;
 	width: 23.7vw;
-	height: 4.38vw;
+	height: 5vw;
 	margin: 0 0 0 1.3vw;
 	padding: 0;
 }
