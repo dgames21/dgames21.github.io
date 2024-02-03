@@ -108,7 +108,7 @@ body{
 
 .icon{
     margin-top: 2vw;
-    margin-left: 47.8vw;
+    margin-left: 48.98vw;
     border-radius: 20%;
 }
 
@@ -145,7 +145,6 @@ body{
 
 .TheCave div span {
 	position: absolute;
-	bottom: -10.42vw;
 	left: 0;
 	z-index: -1;
 	display: block;
@@ -186,7 +185,6 @@ body{
 
 .EG div span {
 	position: absolute;
-	bottom: -10.42vw;
 	left: 0;
 	z-index: -1;
 	display: block;
@@ -203,7 +201,6 @@ body{
 }
 
 figure:hover+span {
-	bottom: -18.44vw;
 	opacity: 1;
 }
 
